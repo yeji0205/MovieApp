@@ -1,0 +1,15 @@
+current directory: /home/yeji/Documents/Yejipark/programming/rubyOnRail/MovieApp/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+/usr/bin/ruby2.3 -r ./siteconf20190806-10880-1d7tr6h.rb extconf.rb
+creating Makefile
+
+current directory: /home/yeji/Documents/Yejipark/programming/rubyOnRail/MovieApp/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/yeji/Documents/Yejipark/programming/rubyOnRail/MovieApp/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/yeji/Documents/Yejipark/programming/rubyOnRail/MovieApp/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190806-10880-hi0v12/skiptrace/internal
