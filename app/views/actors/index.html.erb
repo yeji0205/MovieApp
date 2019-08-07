@@ -2,14 +2,14 @@
       <div class="container">
         <div class="row">
 
-          <!--
-          To do: Loop through movies and display each one with this HTML
+          <% @actors.each do |a| %>
           <div class="actor col-xs-2">
-            actor image goes here
-            <h3> actor name goes here </h3>
-            <p> actor bio goes here </p>
+            <%= image_tag a.image %>
+            <h3><%= a.first_name %></h3>
+            <p><%= a.last_name %></p>
+            <%= link_to 'Learn more', actor_path(a) %>
           </div>
-          -->
+          <% end %>     
           
       </div>
 </div>
